@@ -4,7 +4,21 @@ KNOX, aplicación de venta y compra de videojuegos, también de ropa, accesorios
 El objetivo con esta aplicación será que el usuario acceda a la tienda y pueda comprar entre una variada gama de videojuegos y objetos varios, como también vender lo que no necesite.
 # Tecnologias Usadas
 **Back-end**
-Para la gestión de la información usaré como base de datos mysql,además usaré como framework Laravel 8,por lo tanto también usaré PHP.
+Para la gestión de la información se usara como base de datos mysql,además estara como framework Laravel 8,por lo tanto también se usara PHP.
 
 **Front-end**
-Para la interfaz usaré el preprocesador SASS (concretamente la sintaxis de SCSS),Jquery (aunque habrá partes en JS vanilla) y AJAX,además de algunas librerias de JS para diferentes cometidos tales como animaciones (mo.js y gsap) y trazado (snap.svg).Para concluir usaré Vue.js para componentes dinámicos y reactividad.
+Para la interfaz usaré SASS ,Jquery y AJAX, además de algunas librerias de JS para diferentes usos como animaciones y algunas variaciones de la temática.
+
+# Apartado de Usuarios
+
+Para las modificaciones de los usuarios, habra distintos roles, estaran los roles de:
+
+-Administrador: Los cuáles podrán modificar las secciones de la página web y añadir o retirar distintas cosas dentro de ella, tendrán acceso total a todas las secciones.
+
+-Cliente/Usuario: Estos una vez registrados tendran el rol de usuario, limitado así sus capacidades para poder realizar compras, ventas y añadir productos a sus lista, tambien como dejar reseñas y demás.
+
+-(Opcional) V.I.P: Estos tendran algunas mejoras superiores a los usuarios, como por ejemplo ofertas mejores en los productos y nuevas opciones que los usuarios tienen delimitadas.
+
+
+
+
