@@ -23,3 +23,5 @@ Para las modificaciones de los usuarios, habra distintos roles, estaran los role
 
 ![Diagrama ER](https://user-images.githubusercontent.com/65163077/167922338-0ca119ca-d152-409c-98aa-d134002ab5b8.png)
 
+# Actualizaciones/ Changelog
+
