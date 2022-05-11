@@ -19,6 +19,7 @@ Para las modificaciones de los usuarios, habra distintos roles, estaran los role
 
 -(Opcional) V.I.P: Estos tendran algunas mejoras superiores a los usuarios, como por ejemplo ofertas mejores en los productos y nuevas opciones que los usuarios tienen delimitadas.
 
+# Diagrama E/R
 
-
+![Diagrama ER](https://user-images.githubusercontent.com/65163077/167922137-1a00143e-38b5-401b-8295-6adc2791c97f.png)
 
