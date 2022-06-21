@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Fondo{
+    background-image: url(https://tiendasetup.com/wp-content/uploads/2021/02/pexels-otavio-fonseca-4665064-1-1200x598.jpg);
+}
+
