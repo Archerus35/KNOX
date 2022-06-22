@@ -78,7 +78,7 @@
                         <div>
                           <form action="{{ route('cart.clear') }}" method="POST">
                             @csrf
-                            <button class="px-6 py-2 text-white-100 bg-red-500">Eliminar todo el carrito</button>
+                            <button class="px-6 py-2 text-white-100 bg-white-400">Eliminar todo el carrito</button>
                           </form>
                         </div>
 
