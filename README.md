@@ -69,4 +69,6 @@ _El servicio de despliegue usado para esta ocasión es Heroku, debido a su guía
 * [Sistema](https://laravel.com/docs/9.x)
 * [Partes de diseño](https://www.chartjs.org/docs/latest/charts/bar.html)
 * [Partes de diseño](https://www.w3schools.com/html/html_responsive.asp)
+* [Video del Proyecto](https://youtu.be/udAtcHvylv8)
+
 
