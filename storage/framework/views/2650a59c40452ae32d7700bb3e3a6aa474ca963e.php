@@ -1,7 +1,8 @@
+<!-- Este sera el apartado de productos, donde se manejara la vista de estos, con todos sus atributos. -->
 <?php $__env->startSection('content'); ?>
 <body>
-        <div class="container px-9 mx-auto" style="background-size: cover;background-image: url(https://cdn.dribbble.com/users/1646023/screenshots/6625629/gamer_800x600.gif);">
-            <h3 class="text-2xl font-medium text-blue-300" style="text-align: center;">Lista de Productos</h3>
+        <div class="container px-9 mx-auto" style="background-size: cover;background-image: url(https://c.tenor.com/8XfhFrwNfv0AAAAC/space-pixel-art.gif);">
+            <h3 class="texto1 text-2xl font-medium text-blue-300" style="text-align: center;">Lista de Productos</h3>
             <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                 <div class="w-full max-w-sm mx-auto overflow-hidden rounded-md shadow-md">
@@ -19,7 +20,7 @@
                             <input type="hidden" value="<?php echo e($product->price); ?>" name="price">
                             <input type="hidden" value="<?php echo e($product->image); ?>"  name="image">
                             <input type="hidden" value="1" name="quantity">
-                            <button class="px-4 py-2 text-white bg-red-900 rounded">Agregar al carro</button>
+                            <button class="boton4 px-4 py-2 text-white bg-red-900 rounded">Agregar al carro</button>
                         </form>
                     </div>
 

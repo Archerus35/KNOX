@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link href="/resources/css/app.css" rel="stylesheet">
+    <link href="{{ asset('css/style2.css') }}" rel="stylesheet">
 </head>
-<body style="background-size: cover;background-image: url(https://i.pinimg.com/originals/83/f6/5e/83f65e8c6efc88fabfcfbb11cf63bd8a.gif);">
+<!-- Esta sera la cabezera donde se podra visualizar en numerables sitios durante la página. -->
+<body style="background-size: cover;background-image: url(https://cdnb.artstation.com/p/assets/images/images/014/281/887/original/brandon-ellis-cyber.gif?1543324220);">
     <div  class="Fondo">
         <header>
-            <div class="container px-6 py-1 mx-auto">
+            <div class="container px-0 py-0 mx-auto">
                 <div class="flex items-center justify-between">
 
 
@@ -20,8 +21,8 @@
                         </button>
                     </div>
                 </div>
-                <nav  class=" text-white bg-black sm:flex sm:justify-center sm:items-center">
-                    <div class="flex flex-col sm:flex-row">
+                <nav  class="nav1 text-white bg-black sm:flex sm:justify-center sm:items-center">
+                    <div class="inicio1 flex flex-col sm:flex-row">
                         <a class="mt-3 hover:underline sm:mx-3 sm:mt-0" href="/home">Inicio</a>
                         <a class="mt-3 hover:underline sm:mx-3 sm:mt-0" href="{{ route('products.list')}}">Tienda</a>
                         <a href="{{ route('cart.list') }}" class="flex items-center">

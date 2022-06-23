@@ -1,5 +1,5 @@
 <?php
-
+/* Controlador de las sesiones del usuario y su acceso a la pagina */
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;

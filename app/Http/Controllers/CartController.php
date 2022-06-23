@@ -1,5 +1,5 @@
 <?php
-
+/* Controlador del carrito, posiblemente salga que la variable \cart no este definida, no se como solucionarlo pero funciona aparentemente */
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;

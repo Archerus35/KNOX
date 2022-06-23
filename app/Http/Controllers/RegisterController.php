@@ -1,5 +1,5 @@
 <?php
-
+/* Controlador del registro de usuarios */
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -22,7 +22,7 @@ class RegisterController extends Controller {
 
         $user = User::create(request(['name', 'email', 'password']));
 
-        auth()->login($user);
-        return redirect()->to('home');
+
+        return redirect()->to('login');
     }
 }

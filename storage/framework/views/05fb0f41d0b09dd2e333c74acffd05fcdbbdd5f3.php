@@ -1,11 +1,15 @@
 <?php $__env->startSection('title', 'Login'); ?>
 
 <?php $__env->startSection('content'); ?>
+<!-- El sistema de acceso, mediante el registro podremos colocar nuestro usuario y poder acceder a la página -->
+
+<link href="<?php echo e(asset('css/style2.css')); ?>" rel="stylesheet">
+
 
 <div class="block mx-auto my-12 p-8 bg-black w-1/3 border border-gray-900
 rounded-lg shadow-lg" style="background-size:initial;background-attachment: fixed;background-image: url(https://64.media.tumblr.com/95f07365124166faf8bff85bceecfb98/tumblr_okpftxQMgT1rldv4go1_1280.gifv);position: relative;float:right;">
 
-  <h1 class="text-3xl text-center font-bold text-green-400">Acceso</h1>
+  <h1 class="text-3xl text-center font-bold text-gray-100">Acceso</h1>
 
   <form class="mt-4" method="POST" action="">
     <?php echo csrf_field(); ?>
@@ -31,7 +35,7 @@ endif;
 unset($__errorArgs, $__bag); ?>
 
     <button type="submit" class="rounded-md bg-indigo-900 w-full text-lg
-    text-white font-semibold p-2 my-3 hover:bg-indigo-600">Enviar</button>
+    text-white font-semibold p-2 my-3 hover:">Enviar</button>
 
 
   </form>

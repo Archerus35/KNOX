@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Home')
+<!-- El apartado home donde tras pasar el acceso nos encontraremos con las novedades y nuevas pestañas que usar -->
 <html>
     <head>
         <meta charset="UTF-8">

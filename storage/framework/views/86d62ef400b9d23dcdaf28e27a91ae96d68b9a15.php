@@ -1,12 +1,14 @@
+<!-- El apartado de registro, introduciremos nuestros datos para formar un usuario y nos llevara al apartado de acceso donde podremos introducirnos a la página -->
+
 <?php $__env->startSection('title', 'Register'); ?>
 
 <?php $__env->startSection('content'); ?>
 
 
 <div class="block mx-auto my-12 p-8 bg-black w-1/3 border border-gray-900
-rounded-lg shadow-lg" style="background-size:initial;background-attachment: fixed;background-image: url(https://64.media.tumblr.com/95f07365124166faf8bff85bceecfb98/tumblr_okpftxQMgT1rldv4go1_1280.gifv);position: relative;float:right;">
+rounded-lg shadow-lg" style="background-size:cover;background-attachment: fixed;background-image: url(https://64.media.tumblr.com/95f07365124166faf8bff85bceecfb98/tumblr_okpftxQMgT1rldv4go1_1280.gifv);position: relative;float:right;">
 
-  <h1 class="text-3xl text-center font-bold text-green-400">Registrarse</h1>
+  <h1 class="text-3xl text-center font-bold text-gray-100">Registrarse</h1>
 
   <form class="mt-4" method="POST" action="">
     <?php echo csrf_field(); ?>
